@@ -1,0 +1,7 @@
+bazel-bin
+bazel-medium-bazel-nodejs-multi-file
+bazel-out
+bazel-testlogs
+.idea
+node_modules
+notes.md

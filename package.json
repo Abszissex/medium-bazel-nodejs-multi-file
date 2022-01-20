@@ -1,0 +1,14 @@
+{
+  "name": "medium-bazel-nodejs-multi-file",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Abszissex/medium-bazel-nodejs-multi-file.git"
+  },
+  "author": "Pascal Zwikirsch",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Abszissex/medium-bazel-nodejs-multi-file/issues"
+  },
+  "homepage": "https://github.com/Abszissex/medium-bazel-nodejs-multi-file#readme"
+}
