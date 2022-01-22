@@ -2,5 +2,17 @@ load("@build_bazel_rules_nodejs//:index.bzl", "nodejs_binary")
 
 nodejs_binary(
     name = "app",
-    entry_point = ":index.js"
+    entry_point = ":index.js",
+
+    ## Adding the "subfolder/second.js" file to "binary"
+    data = ["subfolder/second.js"]
+)
+
+
+nodejs_binary(
+    name = "app_glob",
+    entry_point = ":index.js",
+
+    ## **/*.js -> matches every '.js' file in every subdirectory of this package
+    data = glob(["**/*.js"])
 )
