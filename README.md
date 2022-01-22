@@ -5,7 +5,7 @@
 ```sh
 bazel build //src/app1:app
 
-bazel build //src/app2:app
+bazel build //src/app1:app_glob
 ```
 
 ### Run
@@ -13,5 +13,5 @@ bazel build //src/app2:app
 ```sh
 bazel run //src/app1:app
 
-bazel run //src/app2:app
+bazel run //src/app1:app_glob
 ```
