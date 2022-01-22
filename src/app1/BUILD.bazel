@@ -4,7 +4,7 @@ nodejs_binary(
     name = "app",
     entry_point = ":index.js",
 
-    ## Adding the "subfolder/second.js" file to "binary"
+    ## Adding the "subfolder/second.js" file to the "binary"
     data = ["subfolder/second.js"]
 )
 
